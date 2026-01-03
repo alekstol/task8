@@ -82,7 +82,7 @@ public class Program {
                 System.exit(2);
             }
             if (params.process) {
-                arr2 = task8.process(arr2); // ← перезаписываем arr2 результатом
+                arr2 = task8.process(arr2);
             }
             PrintStream out = (params.outputFile != null) ? new PrintStream(params.outputFile) : System.out;
             out.println(ArrayUtils.toString(arr2));
