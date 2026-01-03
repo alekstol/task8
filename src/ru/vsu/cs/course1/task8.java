@@ -42,6 +42,6 @@ public class task8 {
                 result[i][j] = count;
             }
         }
-        return result; // ← ВАЖНО: вернуть результат!
+        return result;
     }
 }
